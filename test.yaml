@@ -1,0 +1,14 @@
+test_name: Test API
+
+stages:
+  - name: Make sure we have the right ID
+
+    # Define the request to be made...
+    request:
+      url: https://tw.yahoo.com
+      method: GET
+
+    # ...and the expected response code and body
+    response:
+      status_code: 200
+
